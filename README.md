@@ -22,6 +22,7 @@ dependencies {
 ```
 
 ## 使用
+```java
 HuHttp.sendJsonRequest(url, null ,null, UserBean.class, new ResponseListener<UserBean>() {
             @Override
             public void onSuccess(UserBean userBean) {
